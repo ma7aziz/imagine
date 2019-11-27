@@ -45,7 +45,7 @@ nav {
 nav .logo {
     color: white;
     font-family: 'Kaushan Script', cursive;
-    font-size: 2em;
+    font-size: 2.6em;
 
 }
 nav ul {
@@ -82,7 +82,7 @@ main {
 
     width: 100%;
     min-height: 100vh;
-    background-image: url('./main-image.jpg');
+    background-image: url('./neven-krcmarek-V4EOZj7g1gw-unsplash.jpg');
      background-repeat: no-repeat;
     background-size: cover;
     padding: 30px 5%;
@@ -262,6 +262,9 @@ main img {
     padding-right: 5px;
 }
 
+.contact a {
+    color: #838080;
+}
 
 input {
     border: none;
@@ -274,6 +277,7 @@ textarea {
     border: none;
     padding: 15px;
 }
+
 
 @media screen and (max-width: 850px) {
     .contact {
