@@ -60,6 +60,9 @@ nav a {
     text-transform: uppercase;
     font-weight: 400;
 }
+nav a:hover {
+    border-bottom: 1px solid #fff;
+}
 @media screen and (max-width: 850px) {
 nav {
     display: grid;
@@ -307,4 +310,25 @@ footer ul {
 
 footer li {
     margin-right: 20px;
+}
+
+#reviews {
+    background: #000000;
+    color: #F6F6F6;
+    line-height: 2;
+    padding: 7% 8%;
+    font-size: 1.3rem;
+    text-align: center;
+    
+}
+#reviews .card {
+   
+align-items: center;
+width: 50%;
+
+}
+
+#reviews h5 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5rem;
 }
