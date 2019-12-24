@@ -38,6 +38,9 @@ button:hover {
     background-color: #524b4b;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
 
 /* nav bar  */
 
@@ -151,17 +154,19 @@ main img {
 .showcase h1 {
     font-size: 2.4rem;
     font-weight: 900;
+    text-transform: none;
 }
 
 .showcase h3 {
     font-family: 'Kaushan Script', cursive;
     font-weight: 200;
     font-size: 2.4rem;
+    text-transform: none;
 }
 
 .showcase h5 {
     font-size: 1.4rem;
-
+    text-transform: none;
 }
 
 @media screen and (max-width: 850px) {
